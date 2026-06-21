@@ -7,9 +7,9 @@ Currently supports Minecraft `1.20.4` only.
 ## Current Features
 
 - Nightmare timer HUD for Monumenta Gallery maps, focused on Marina Noir by default.
-- Automatic timer reset from detected non-player entity deaths.
-- Optional squad sync markers through Monumenta chat channels.
-- Configurable HUD position, scale, and background.
+  - Automatic timer reset from detected non-player entity deaths.
+  - Optional squad sync markers through Monumenta chat channels.
+  - Configurable HUD position, scale, and background.
 - Mod Menu integration through YetAnotherConfigLib.
 - Client commands under `/monumentatools nightmare` for edit, reset, status, set, and toggle actions.
 
