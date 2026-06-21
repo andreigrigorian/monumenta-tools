@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "monumenta_tools",
+  "version": "${version}",
+  "name": "Monumenta Tools",
+  "description": "Client-side tools for Monumenta.",
+  "authors": [
+    "krkna"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.krkna.monumentatools.MonumentaToolsClient"
+    ],
+    "modmenu": [
+      "net.krkna.monumentatools.config.MonumentaToolsModMenu"
+    ]
+  },
+  "mixins": [
+    "monumenta_tools.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "fabric-api": ">=0.97.2+1.20.4",
+    "minecraft": "1.20.4",
+    "java": ">=17",
+    "yet_another_config_lib_v3": ">=3.6.6"
+  },
+  "suggests": {
+    "modmenu": ">=9.2.0"
+  }
+}

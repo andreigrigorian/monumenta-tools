@@ -1,0 +1,7 @@
+.gradle/
+build/
+run/
+*.zip
+reference-gross-hacks/
+.agents/
+.codex/
